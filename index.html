@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Open Graph tags to customize link previews. -->
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/cd9955ac07.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Desarrolladores en desarrollo</title>
+    <!-- Archivo JS interno -->
+    <script defer src="index.js"></script>
+    <link rel="icon" href="media/logo.png">
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" data-offset="60">
+
+    <!-- Fixed Navbar -->
+    <nav id="main-nav" class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- Menu Toggle -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <a class="navbar-brand scroll" href="#top"><span>D•D</span></a>
+            </div>
+            <!-- Menu Desplegable -->
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="scroll" href="#top">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li><a class="scroll" href="#about">Sobre el sitio</a></li>
+                    <li><a class="scroll" href="#temario">Contenidos</a></li>
+                    <li><a class="scroll" href="#tutoriales">Tutoriales</a></li>
+                    <!-- <li><button class="btn td-btn small outline pink">Contacto</button></li> -->
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- Encabezado -->
+    <header id="top" class="jumbotron">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-3">
+                    <!-- <img class="img-responsive center-block logo" src="media/logo.png" alt="Logo"> -->
+                </div>
+                <div class="col-xs-12">
+                    <h1 class="title">Desarrolladores en desarrollo</h1>
+                    <p>Un sitio para quienes van a solucionar los problemas del mañana.</p>
+                    <a class="btn td-btn outline scroll mt-30" href="#about" title="Mas info"><span
+                            class="glyphicon glyphicon-triangle-bottom"></span> Mas info</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre el sitio -->
+
+    <section id="about" class="row bg-white bg-shadow">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="mb-30 title">Sobre el sitio</h3>
+            </div>
+        </div>
+        <div class="row mb-30">
+            <!-- <div class="col-xs-12 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-2">
+                <img class="img-responsive center-block profile mb-30"
+                    src="https://i.ibb.co/MRPL8WS/183360468-3030797137150820-1212046279066377534-n.jpg"
+                    alt="Profile Photo">
+            </div> -->
+            <div class="col-sm-8 col-sm-offset-2 col-md-7 col-lg-12 centrado">
+                <p>"Siempre estoy haciendo lo que no puedo hacer, para poder aprender cómo hacerlo." </p>
+                <p>- <strong>Pablo Picasso</strong> -</p>
+                <br>
+                <p> <strong>D•D</strong> fue creado para acercar fácilmente medios y herramientas de aprendizaje a estudiantes de
+                    desarrollo web, programación y diseño de experiencia de usuario.</p>
+                <p> Es un sitio para compartir, dar a conocer y disfrutar. Creado por mi, pero co-creado junto a cada
+                    persona con ganas de sumar su experiencia a la comunidad.</p>
+                <p> En este espacio, vas a encontrar artículos, publicaciones, tutoriales, archivos, ejemplos, videos y
+                    todo material útil que llegue a mis manos y facilite
+                    la formación de nuevos desarrolladores.</p>
+                <p>¿Por qué decidí hacerlo?</p>
+                <p>Porque enseñar es la forma más fácil de aprender. Porque compartir abre puertas. Y porque en este
+                    enorme mundo de la tecnología, hay lugar de sobra.</p>
+
+
+                <p>Si queres saber más sobre mi, <a class="scroll" href="#follow-me"><strong>seguime en mis redes!</a> :)</strong></p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+ <hr>  
+
+    <!--Temario-->
+    <section class="temas">
+        <div id="temario" class="container gallery-container">
+
+            <h3 class="title"> Desarrollar, paso a paso</h3>
+
+            <p class="centrado">Vamos a profundizar en cada una de las herramientas que tenemos a
+                nuestro alcance para desarrollar un sitio web y muchos otros recursos que
+                nos van a facilitar un montón la tarea
+            </p>
+
+            <div class="tz-gallery">
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" target="_blank"
+                            href="https://www.notion.so/Recursos-e-informaci-n-sobre-HTML-e3f881d6a4c6434daec168bae4832cbf">
+                            <img src="./assets/img/html.jpg" alt="Park">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="../images/bridge.jpg">
+                            <img src="./assets/img/css.webp" alt="Bridge">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="../images/tunnel.jpg">
+                            <img src="./assets/img/seo.jpg" alt="Tunnel">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="../images/coast.jpg">
+                            <img src="./assets/img/responsive.jpg" alt="Coast">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="../images/rails.jpg">
+                            <img src="./assets/img/sketch.jpg" alt="Rails">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="../images/traffic.jpg">
+                            <img src="./assets/img/lamparita.jpg" alt="Traffic">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="../images/rocks.jpg">
+                            <img src="./assets/img/sketch.jpg" alt="Rocks">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="../images/benches.jpg">
+                            <img src="./assets/img/sketch.jpg" alt="Benches">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="../images/sky.jpg">
+                            <img src="./assets/img/sketch.jpg" alt="Sky">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--Fin Temario-->
+    <hr> 
+    <!--Tutoriales-->
+    <section id="tutoriales" class="tutos">
+
+        <div class="container gallery-container">
+
+            <h3 class="title">Tutoriales</h3>
+
+            <p class="page-description text-center">
+            </p>
+
+            <ul class="article-list-large">
+
+                <li>
+                    <a href="#">
+                        <img src="assets/img/d9e5db5ef10fa32f98ebb4d4b6390247.jpg" alt="meme" />
+                    </a>
+
+                    <h2><a href="#">Tutorial</a></h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu lacus mattis, laoreet
+                        diam a, volutpat magna. Donec eleifend laoreet elementum. Nulla dictum lacinia ut sodales
+                        libero. Etiam vestibulum ex in leo euismod.</p>
+
+                    <span>por <a href="#">Autor</a> &middot; 22nd Aug 2015</span>
+
+                    <div>17</div>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="assets/img/when-people-dont-close-html-elements-meme.jpg" alt="meme" />
+                    </a>
+
+                    <h2><a href="#">Tutorial</a></h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu lacus mattis, laoreet
+                        diam a, volutpat magna. Donec eleifend laoreet elementum. Nulla dictum lacinia ut sodales
+                        libero. Etiam vestibulum ex in leo euismod.</p>
+
+                    <span>por <a href="#">Autor</a> &middot; 15th Nov 2014</span>
+
+                    <div>32</div>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="assets/img/d9e5db5ef10fa32f98ebb4d4b6390247.jpg" alt="meme" />
+                    </a>
+
+                    <h2><a href="#">Tutorial</a></h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu lacus mattis, laoreet
+                        diam a, volutpat magna. Donec eleifend laoreet elementum. Nulla dictum lacinia ut sodales
+                        libero. Etiam vestibulum ex in leo euismod.</p>
+
+                    <span>por <a href="#">Autor</a> &middot; 22nd Aug 2015</span>
+
+                    <div>17</div>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="assets/img/when-people-dont-close-html-elements-meme.jpg" alt="meme" />
+                    </a>
+
+                    <h2><a href="#">Tutorial</a></h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu lacus mattis, laoreet
+                        diam a, volutpat magna. Donec eleifend laoreet elementum. Nulla dictum lacinia ut sodales
+                        libero. Etiam vestibulum ex in leo euismod.</p>
+
+                    <span>por <a href="#">Autor</a> &middot; 15th Nov 2014</span>
+
+                    <div>32</div>
+                </li>
+
+            </ul>
+        </div>
+
+    </section>
+    <!--Fin Tutoriales-->
+
+    <!--Contacto-->
+
+    <section id="contacto" class="contact">
+        <h4 class="titulo">Tu opinión es importante</h4>
+        <p class="texto-contacto">Podes contactarte conmigo para hacer consultas, sugerencias, aportar información que
+            consideres importante o
+            simplemente para dejarme un mensaje.</p>
+
+        <a class="cafecito" href='https://cafecito.app/yanneviltwin' rel='noopener' target='_blank'><img
+                srcset='https://cdn.cafecito.app/imgs/buttons/button_4.png 1x, https://cdn.cafecito.app/imgs/buttons/button_4_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_4_3.75x.png 3.75x'
+                src='https://cdn.cafecito.app/imgs/buttons/button_4.png' alt='Invitame un café en cafecito.app' /></a>
+
+    </section>
+
+    <!--Fin Contacto-->
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div id="button"></div>
+            <div id="container">
+                <div class="col-xs-12 col-sm-5 col-sm-offset-1 mb-30">
+                    <h3 class="text-left">Mis redes!</h3>
+                    <a class="social" href="https://www.linkedin.com/in/andregnette-yanina/" target="_blank"
+                        title="LinkedIn">
+                        <i class="fab fa-linkedin-in" style="color: #6b7a78"></i>
+                    </a>
+                    <a class="social" href="https://twitter.com/yanneviltwin/" target="_blank" title="Twitter">
+                        <i class="fab fa-twitter" style="color: #6b7a78"></i>
+                    </a>
+                    <a class="social" href="https://www.instagram.com/yanneviltwin/?hl=es-la" target="_blank"
+                        title="Instagram">
+                        <i class="fab fa-instagram" style="color: #6b7a78"></i>
+                    </a>
+                    <a class="social" href="https://github.com/yanneviltwin/" target="_blank" title="Github">
+                        <i class="fab fa-github" style="color: #6b7a78"></i>
+                    </a>
+                </div>
+                <div id="cont">
+                    <div class="footer_center">
+                        <div id="follow-me">
+                            <h2>&ndash; Gracias por tu visita! &ndash;</h2>
+                            <small class="gray">Copyright &copy; <script type="text/javascript">
+                                    document.write(new Date().getFullYear());
+                                </script> Yann EvilTwin &mdash; Todos los derechos reservados
+                                &mdash;</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--Fin Footer-->
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
