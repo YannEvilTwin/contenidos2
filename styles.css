@@ -11,6 +11,7 @@
 
 html {
   font-size: 110%;
+  overflow-x: hidden;
 }
 
 html,
@@ -684,11 +685,10 @@ h4 {
 }
 
 .cafecito {
-  width: 60px;
-  height: 25px;
-  background-color: #fff;
-  border-radius: 50%;
-  margin-left: 45%;
+position: absolute;
+left: 50%;
+margin-top: 50px;
+transform: translate(-50%, -50%);
 
 }
 
